@@ -13,8 +13,10 @@ a scrapy spider to login  zimuzu . to get movie
 结果以html形式存储，方便直接打开下载所需资源，
 
 ##使用方法：
+```
 git clone https://github.com/tengbozhang/renren.git
 cd renren/
+```
 编辑settings.py文件，
 填写settings.py中的人人影视用户名(RENREN_USERNAME)和密码(RENREN_PASSWORD)
 运行run.bat脚本。
