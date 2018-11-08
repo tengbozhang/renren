@@ -30,7 +30,7 @@ def login_get_link(username,password):
     m_new = list(set(m_new))
 #    print(m_new)
     today_m = []
-    for i in m_new[:2]:
+    for i in m_new:
         json_text = session.get("http://www.zimuzu.tv/resource/index_json/rid/%s/channel/tv" %i).text.replace("\\","")
         try:
             json_text = re.search(r'(zmz003.com/\w*?)"',json_text).group(1)
