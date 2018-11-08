@@ -1,0 +1,13 @@
+# Build and Release Folders
+__pycache__/
+
+# Other files and folders
+.ipynb_checkpoints
+
+=======
+.DS_Store
+# Executables
+
+# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
+# should NOT be excluded as they contain compiler settings and other important
+# information for Eclipse / Flash Builder.
