@@ -1,5 +1,6 @@
+scrapy
 scrapy-fake-useragent
 requests
-
+json
 
 

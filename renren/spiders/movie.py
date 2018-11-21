@@ -52,8 +52,8 @@ class MovieSpider(scrapy.Spider):
  #   print(renren_password)
     if renren_username =="" or renren_username =="":
         sys.exit(u'''
-        请填写settings.py中的人人影视用户名(RENREN_USERNAME)和密码(RENREN_PASSWORD)再重新启动脚本。\n
-        username or password not specified,please complete the settings.py with RENREN_USERNAME
+        请填写./renren/settings.py中的人人影视用户名(RENREN_USERNAME)和密码(RENREN_PASSWORD)再重新启动脚本。\n
+        username or password not specified,please complete the ./renren/settings.py with RENREN_USERNAME
         and RENREN_PASSWORD ,then restart script''')
     link_all = login_get_link(renren_username,renren_password)
     start_urls = ['http://'+i for i in link_all]
